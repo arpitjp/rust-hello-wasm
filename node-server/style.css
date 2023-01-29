@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.625;
+  background-color: black;
+  color: white;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 16px;
+  font-size: large;
+  background-color: #f1c40f;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
